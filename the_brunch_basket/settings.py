@@ -21,8 +21,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-05#h8o@m-t5o^fq7&l=nkr)k5x3)%a#2=pa#1&d4ffr7zsnv&o'
-
+SECRET_KEY = [
+    'django-insecure-05#h8o@m-t5o^fq7&l=nkr)k5x3)%a#2=pa#1&d4ffr7zsnv&o'
+]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -64,7 +65,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # required by allauth
+                'django.template.context_processors.request',  # required by allauth 
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
