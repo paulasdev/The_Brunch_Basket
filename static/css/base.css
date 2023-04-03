@@ -23,7 +23,7 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
+.order-now-button {
     background: black;
     color: white;
     min-width: 260px;
@@ -34,9 +34,9 @@ body {
     color: white;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
+.order-now-button:hover,
+.order-now-button:active,
+.order-now-button:focus,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
