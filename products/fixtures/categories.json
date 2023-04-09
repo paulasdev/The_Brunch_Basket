@@ -1,0 +1,59 @@
+[
+    {
+    "pk":1,
+    "model":"products.category",
+    "fields":{
+    "name":"clearance",
+    "friendly_name":"Clearance"
+    }
+    },
+    {
+    "pk":2,
+    "model":"products.category",
+    "fields":{
+    "name":"deals",
+    "friendly_name":"Deals"
+    }
+    },
+    {
+    "pk":3,
+    "model":"products.category",
+    "fields":{
+    "name":"drinks",
+    "friendly_name":"Drinks"
+    }
+    },
+    {
+    "pk":4,
+    "model":"products.category",
+    "fields":{
+    "name":"food",
+    "friendly_name":"Food"
+    }
+    },
+    {
+    "pk":5,
+    "model":"products.category",
+    "fields":{
+    "name":"gift",
+    "friendly_name":"Gift"
+    }
+    },
+    {
+    "pk":6,
+    "model":"products.category",
+    "fields":{
+    "name":"options",
+    "friendly_name":"Our Options"
+    }
+    },
+    {
+    "pk":7,
+    "model":"products.category",
+    "fields":{
+    "name":"special",
+    "friendly_name":"Special dates"
+    }
+    }
+
+]    

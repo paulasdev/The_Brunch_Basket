@@ -1,0 +1,457 @@
+[
+    {
+    "pk":1,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5001340155",
+    "name":"Panda Mug",
+    "description":"The Panda mug is a fun and unique gift for a friend or family member. It is typically made of high-quality ceramic or porcelain, which gives it a smooth and glossy finish that is both durable and easy to clean.",
+    "price":13.99,
+    "category":5,
+    "rating":4.6,
+    "image":"1.png"
+    }
+    },
+    {
+    "pk":2,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5001600425",
+    "name":"Boiled Eggs",
+    "description":"Eggs are a classic and versatile addition to any breakfast basket, providing a delicious and nutritious source of protein to start your day off right.",
+    "price":5.00,
+    "category":4,
+    "rating":4.6,
+    "image":"2.png"
+    }
+    },
+    {
+    "pk":3,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5001730010",
+    "name":"French Croissant",
+    "description":"The dough is made by combining flour, water, yeast, salt, sugar, and butter, which is folded and rolled repeatedly to create multiple layers. Croissants are often enjoyed for breakfast or as a snack.",
+    "price":3.50,
+    "category":4,
+    "rating":4.7,
+    "image":"3.png"
+    }
+    },
+    {
+    "pk":4,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5001890157",
+    "name":"Chocolates cookies",
+    "description":"Chocolate cookies are a popular treat enjoyed by people of all ages, and can be served as a dessert or enjoyed as a snack.",
+    "price":8.00,
+    "category":4,
+    "rating":3,
+    "image":"4.png"
+    }
+    },
+    {
+    "pk":5,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002111605",
+    "name":"Flowers",
+    "description":"The flowers can be very pleasing to the eye, and such bouquets are often given as gifts for special occasions such as birthdays, Mother's Day, or Valentine's Day. ",
+    "price":15.00,
+    "category":5,
+    "rating":5,
+    "image":"5.png"
+    }
+    },
+    {
+    "pk":6,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002260206",
+    "name":"Small basket",
+    "description":"Our special basket are included chocolates, nuts, flowers, mug, teddy. The basket can be customised based on the recipient's preferences and interests to make it a thoughtful and memorable gift. ",
+    "price":52.50,
+    "category":6,
+    "rating":4.7,
+    "image":"6.png"
+    }
+    },
+    {
+    "pk":7,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002440521",
+    "name":"Special card",
+    "description":"Special cards can refer to a variety of cards that are designed to commemorate a special occasion or convey a specific sentiment. ",
+    "price":4.00,
+    "category":5,
+    "rating":4.4,
+    "image":"7.png"
+    }
+    },
+    {
+    "pk":8,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002601115",
+    "name":"Water bottle",
+    "description":"Water is a great way to provide the recipient with a refreshing and healthy beverage option to enjoy with their morning meal. The water bottle can be filled with fresh, cold water or even infused with fruits or herbs for added flavour.",
+    "price":3.50,
+    "category":3,
+    "rating":4.5,
+    "image":"8.png"
+    }
+    },
+    {
+    "pk":9,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002690715",
+    "name":"Natural Yogurt",
+    "description":"Yogurt is a versatile food that can be enjoyed on its own or paired with other breakfast items such as fruit, granola, or nuts. ",
+    "price":5.00,
+    "category":4,
+    "rating":4.7,
+    "image":"9.png"
+    }
+    },
+    {
+    "pk":10,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002701115",
+    "name":"Coffee",
+    "description":"Coffee is a great way to provide the recipient with a delicious and energising beverage to start their day. Coffee is a popular breakfast drink that is enjoyed by many people around the world.",
+    "price":4.99,
+    "category":3,
+    "rating":4.4,
+    "image":"10.png"
+    }
+    },
+    {
+    "pk":11,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002761055",
+    "name":"Assorted chocolates",
+    "description":"In our chocolate boxe is included such as truffles, chocolate bars, chocolate-covered nuts, and fruits. The chocolates can be of different types, such as dark chocolate, milk chocolate, white chocolate, or a combination of them.",
+    "price":20.00,
+    "category":5,
+    "rating":3,
+    "image":"11.png"
+    }
+    },
+    {
+    "pk":12,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002820069",
+    "name":"Cheese",
+    "description":"Cheese is a versatile food that can be enjoyed on its own or paired with other basket items such as bread, crackers, or fruit.",
+    "price":5.99,
+    "category":4,
+    "rating":4.6,
+    "image":"12.png"
+    }
+    },
+    {
+    "pk":13,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002820147",
+    "name":"Butter",
+    "description":"Butter is a staple food that is used in many dishes such as toast, pancakes, waffles, and croissants.",
+    "price":2.00,
+    "category":4,
+    "rating":3.2,
+    "image":"13.png"
+    }
+    },
+    {
+    "pk":14,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002910572",
+    "name":"Birthday cards",
+    "description":"Birthday cards are a traditional and popular way to send birthday wishes to friends, family, and loved ones on their special day. A birthday card can be simple or elaborate, humorous or sentimental, depending on the relationship between the sender and the recipient. ",
+    "price":4.00,
+    "category":5,
+    "rating":4.7,
+    "image":"14.png"
+    }
+    },
+    {
+    "pk":15,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5002990740",
+    "name":"Easter cards",
+    "description":"Easter cards are greeting cards that are sent to family and friends to celebrate the Easter holiday. Ours Easter cards come in a variety of styles, including traditional folded cards, postcards. ",
+    "price":3.99,
+    "category":5,
+    "rating":4.8,
+    "image":"21.png"
+    }
+    },
+    {
+    "pk":16,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003050248",
+    "name":"Banana",
+    "description":"Bananas is a thoughtful and healthy addition that provides the recipient with a nutritious and satisfying breakfast option",
+    "price":2.00,
+    "category":4,
+    "rating":4.4,
+    "image":"18.png"
+    }
+    },
+    {
+    "pk":17,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003070787",
+    "name":"Apple",
+    "description":"Apples are a great source of fiber, vitamins, and antioxidants, making them a popular fruit. ",
+    "price":2.00,
+    "category":4,
+    "rating":4.4,
+    "image":"19.png"
+    }
+    },
+    {
+    "pk":18,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003090182",
+    "name":"Juice",
+    "description":"juices in a breakfast basket is a great way to provide the recipient with a refreshing and healthy drink option to accompany their breakfast.",
+    "price":7.50,
+    "category":3,
+    "rating":4.8,
+    "image":"20.png"
+    }
+    },
+    {
+    "pk":19,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003090186",
+    "name": "Cereal bar",
+    "description":"Cereal bars are a convenient snack option for people who are on the go or looking for a quick and easy snack between meals.",
+    "price":3.50,
+    "category":4,
+    "rating":5,
+    "image":"22.png"
+    }
+    },
+    {
+    "pk":20,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003161326",
+    "name":"Muesli",
+    "description":"Muesli is a nutritious and delicious cereal that is a popular choice among health-conscious consumers. Its blend of whole grains, nuts, seeds, and dried fruit makes it a satisfying and filling breakfast option that provides sustained energy throughout the day. ",
+    "price":8.99,
+    "category":4,
+    "rating":4.7,
+    "image":"24.png"
+    }
+    },
+    {
+    "pk":21,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003230723",
+    "name":"Grapes",
+    "description":"Grapes are a good source of vitamins C and K, and also contain other antioxidants and minerals such as potassium and iron. They are low in calories and high in fiber, making them a healthy snack option. ",
+    "price":5.00,
+    "category":4,
+    "rating":4.3,
+    "image":"25.png"
+    }
+    },
+    {
+    "pk":22,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003270936",
+    "name":"Sliced ham",
+    "description":"Sliced is a versatile and convenient meat that can be used in many different ways. Its pre-sliced form makes it easy to use in sandwiches and other dishes, while its delicious flavor makes it a popular choice for breakfast, lunch, and dinner.",
+    "price":2.00,
+    "category":4,
+    "rating":5,
+    "image":"26.png"
+    }
+    },
+    {
+    "pk":23,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003360384",
+    "name":"Love mug",
+    "description":"A love mug is a type of coffee mug that is designed to express affection or love. It often features romantic imagery, such as hearts, flowers, or love quotes, and may come in a variety of colors and styles.",
+    "price":20.99,
+    "category":5,
+    "rating":4.8,
+    "image":"27.png"
+    }
+    },
+    {
+    "pk":24,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003440111",
+    "name":"Honey",
+    "description":"Honey is a sweet and natural food that can be a delicious addition to a brunch basket. It is often used as a natural sweetener for tea, coffee, and yogurt, and can also be used as a topping for cereal, pancakes, and waffles. ",
+    "price":8.20,
+    "category":4,
+    "rating":3.8,
+    "image":"29.png"
+    }
+    },
+    {
+    "pk":25,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003540313",
+    "name":"Chocolate Kinder Bar",
+    "description":"It is a milk chocolate bar that is filled with a creamy hazelnut filling. The Kinder bar is famous for its unique shape, which consists of a series of small, interconnected bars that can be easily snapped apart.",
+    "price":12.99,
+    "category":4,
+    "rating":3,
+    "image":"30.png"
+    }
+    },
+    {
+    "pk":26,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003560513",
+    "name":"Sliced Bread",
+    "description":"sliced bread is a convenient and popular choice for sandwiches, toast, and other bread-based dishes.",
+    "price":10.00,
+    "category":4,
+    "rating":4.4,
+    "image":"31.png"
+    }
+    },
+    {
+    "pk":27,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003560948",
+    "name":"Milk",
+    "description":"Milk is a nutritious and versatile beverage that is often included in breakfast baskets. It is a rich source of calcium, vitamin D, and other essential nutrients that are important for strong bones and overall health. ",
+    "price":4.00,
+    "category":3,
+    "rating":5,
+    "image":"34.png"
+    }
+    },
+    {
+    "pk":28,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003570628",
+    "name":"Muffins",
+    "description":"Muffins are a popular item because they are quick and easy to grab on-the-go. They can be eaten as a standalone breakfast item or paired with other items such as coffee, tea, or juice.",
+    "price":8.00,
+    "category":4,
+    "rating":4.3,
+    "image":"35.png"
+    }
+    },
+    {
+    "pk":29,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003620308",
+    "name":"Nutella",
+    "description":"Nutella is a delicious and indulgent treat that can be enjoyed as part of a brunch basket.",
+    "price":6.00,
+    "category":4,
+    "rating":4.6,
+    "image":"36.png"
+    }
+    },
+    {
+    "pk":30,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003690115",
+    "name":"Nuts",
+    "description":"Nuts are a popular addition to brunch basket as they provide a delicious and nutritious snack. They are a good source of protein, healthy fats, and fiber, which can help to keep you feeling full and satisfied throughout the morning.",
+    "price":6.00,
+    "category":4,
+    "rating":5,
+    "image":"39.png"
+    }
+    },
+    {
+    "pk":31,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003690116",
+    "name":"Pastries",
+    "description":"Ours providing a sweet and satisfying treat that can help to start the day off on a positive note.",
+    "price":5.99,
+    "category":4,
+    "rating":4,
+    "image":"41.png"
+    }
+    },
+    {
+    "pk":32,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003780391",
+    "name":"Red mug",
+    "description":"A red mug is a type of drinking vessel that can be used to enjoy hot beverages such as coffee, tea, or hot chocolate.",
+    "price":13.50,
+    "category":5,
+    "rating":4.8,
+    "image":"42.png"
+    }
+    },
+    {
+    "pk":33,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003790542",
+    "name":"Salami",
+    "description":"Salami is a flavorful and indulgent addition to a breakfast basket, providing a savory and satisfying option for those who enjoy cured meats.",
+    "price":4.00,
+    "category":4,
+    "rating":4.5,
+    "image":"43.png"
+    }
+    },
+    {
+    "pk":34,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003831225",
+    "name": "Soft drinks",
+    "description":"Soft drinks can be a fun and refreshing addition to a breakfast basket, but it is important to consume them in moderation and balance them with healthier options to maintain a balanced and nutritious breakfast.",
+    "price":5.99,
+    "category":3,
+    "rating":4.99,
+    "image":"49.png"
+    }
+    },
+    {
+    "pk":35,
+    "model":"products.product",
+    "fields":{
+    "sku":"pp5003861402",
+    "name":"Heart Teddy Bear",
+    "description":"These teddy bears can make a great addition to a brunch basket, as they provide a cute and cuddly companion to enjoy brunch with. They can also be a thoughtful and heartfelt gift for someone special in your life, showing them how much you care about them and adding a touch of sweetness to their day.",
+    "price":50.99,
+    "category":5,
+    "rating":4.7,
+    "image":"50.png"
+    }
+    }
+    ]
