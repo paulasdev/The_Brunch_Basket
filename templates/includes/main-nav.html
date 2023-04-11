@@ -17,10 +17,10 @@
                 Your Choices
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Drinks</a>
-                <a href="" class="dropdown-item">Food</a>
-                <a href="" class="dropdown-item">Gift</a>
-                <a href="" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=drinks" class="dropdown-item">Drinks</a>
+                <a href="{% url 'products' %}?category=food" class="dropdown-item">Food</a>
+                <a href="{% url 'products' %}?category=gift" class="dropdown-item">Gift</a>
+                <a href="{% url 'products' %}?category=drink,food,gift" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Our choices
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Our options</a>
-                <a href="" class="dropdown-item">Special dates</a>
-                <a href="" class="dropdown-item">All Options</a>
+                <a href="{% url 'products' %}?category=our_options" class="dropdown-item">Our options</a>
+                <a href="{% url 'products' %}?category=special_dates" class="dropdown-item">Special dates</a>
+                <a href="{% url 'products' %}?category=our_options,special_dates" class="dropdown-item">All Options</a>
             </div>
         </li>
 
@@ -40,9 +40,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
