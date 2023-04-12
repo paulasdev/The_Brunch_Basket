@@ -38,6 +38,12 @@ body {
     color: white;
 }
 
+.btn-outline-black {
+    background: white;
+    color: #79511E !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #79511E;
+}
+
 .order-now-button:hover,
 .order-now-button:active,
 .order-now-button:focus,
