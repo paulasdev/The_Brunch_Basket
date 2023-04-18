@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'profiles',
     'contact',
     'faq',
+    'subscribers',
     
 
     # Other
