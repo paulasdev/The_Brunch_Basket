@@ -27,8 +27,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
+# DEBUG = False
+
 
 ALLOWED_HOSTS = ['the-brunch-basket.herokuapp.com', 'localhost']
+
 
 
 # Application definition
@@ -49,9 +52,8 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'contact',
     
-   
-
 
     # Other
     'crispy_forms',
@@ -216,3 +218,4 @@ STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 DEFAULT_FROM_EMAIL = 'thebrunchbasket@example.com'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
