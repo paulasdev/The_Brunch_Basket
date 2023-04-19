@@ -2,19 +2,23 @@
 {% load static %}
 
 {% block content %}
-  <h1>Frequently Asked Questions</h1>
+<h1>Frequently Asked Questions</h1>
 
-  {% if faqs %}
-    <ul>
-      {% for faq in faqs %}
-        <li>
-          <h2>{{ faq.question }}</h2>
-          <p>{{ faq.answer }}</p>
-          <small>Category: {{ faq.category }}</small>
-        </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    <p>No FAQs found.</p>
-  {% endif %}
+<form method="post">
+  {% csrf_token %}
+  <label for="question">Question:</label>
+  <select name="question">
+    {% for faq in faqs %}
+    <option value="{{ faq.question }}">{{ faq.question }}</option>
+    {% endfor %}
+  </select>
+  <br>
+  <br>
+  <label for="answer">Answer:</label>
+  <br>
+  <textarea id="answer" name="answer" readonly>{{ answer }}</textarea>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+{% endif %}
 {% endblock %}
