@@ -31,3 +31,5 @@ urlpatterns = [
     path('subscribers/', include('subscribers.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+handler404 = 'home.views.not_found_404'
+handler500 = 'home.views.server_error_500'
