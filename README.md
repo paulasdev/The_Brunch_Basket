@@ -1,6 +1,6 @@
 # The Brunch Basket
 
-<span style="display:block;text-align:center">![Logo-The-Brunch-Basket](media/logonav.png)</span>
+<span style="display:block;text-align:center">![Logo-The-Brunch-Basket](media/56.png)</span>
 
 The Brunch Basket is a premier online marketplace for brunch lovers who want to elevate their dining experience. We offer a carefully curated selection of high-quality brunch items, including gourmet brunch baskets, artisanal bread, pastries, and spreads, as well as premium coffee and tea. Our mission is to provide customers with a convenient and hassle-free way to enjoy a delicious brunch in the comfort of their own home or workplace.
 
@@ -17,7 +17,6 @@ Live link can be found here - [The Brunch Basket](https://the-brunch-basket.hero
 * [Target Audience](#target-audience "Target Audience")
     * [User Goals](#user-goals "User Goals")
     * [User Stories](#user-stories "User Stories")
-    * [Marketing](#marketing "Marketing")
     * [Wireframes](#wireframes "Wireframes")
     * [Design Choices](#design-choices "Design Choices")
         * Fonts
@@ -121,3 +120,51 @@ Soft and muted: Opt for a softer and more subdued color palette using shades of 
 #### **Fonts**
 
 [Lato](https://fonts.google.com/specimen/Lato?query=lato#about) - Lato is a sans serif typeface family it gives the website a soft generic feel.
+
+
+# Technologies used
+
+## Languages
+
+
+HTML [HTML](https://en.wikipedia.org/wiki/HTML5 "HTML") 
+CSS[CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+JavaScript[JavaScript](https://en.wikipedia.org/wiki/JavaScript "JS")
+jQuery[jQuery](https://jquery.com/ "jQuery")
+Python[Python](https://en.wikipedia.org/wiki/Python_(programming_language) "Python")
+Markdown[Markdown](https://en.wikipedia.org/wiki/Markdown)
+ 
+## Libraries, Frameworks and Tools
+Django [django](https://en.wikipedia.org/wiki/Django_(web_framework) "django")|
+gunicorn[gunicorn](https://en.wikipedia.org/wiki/Gunicorn "gunicorn")|
+psycopg2[psycopg2](https://wiki.postgresql.org/wiki/Psycopg "psycogg2")
+cloudinary[cloudinary](https://cloudinary.com/ "cloudinary")|
+django auth[auth](https://docs.djangoproject.com/en/3.2/topics/auth/ "auth")|
+django mathfilters [django-mathfilters](https://pypi.org/project/django-mathfilters/)
+django crispy forms[crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/ "crispy-forms")
+Sitemap Generator[xml-sitemaps](https://www.xml-sitemaps.com/ "XML-Sitemaps.com")
+|HTML Validation[w3.org](https://validator.w3.org/ "W3C")
+CSS Validation[w3.org](https://jigsaw.w3.org/css-validator/ "W3C")
+JS Validation[jshint](https://jshint.com/ "JSHint")
+PEP8[PEP8](http://pep8online.com/ "PEP8")
+Lucid[Lucid](https://lucid.co/ "Lucid")
+Istock[Istock](https://www.istockphoto.com/ "iStock")
+GitPod[Gitpod](https://www.gitpod.io/ "Gitpod")
+Balsamic[Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+Bootstrap[Bootstrap](https://getbootstrap.com "Bootstrap")
+Font Awesome[Font Awesome library](https://fontawesome.com/ "Font Awesome")
+miniwebtool[Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/ "miniwebtool")
+Colours[coolors](https://coolors.co/ "coolors")|
+Google Fonts[Google Fonts](https://fonts.google.com/ "Fonts")|
+WebAIM [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM")|
+Pillow [Pillow](https://pillow.readthedocs.io/en/stable/ "Pillow")
+Stripe[Stripe](https://stripe.com/en-gb "Stripe")
+favicon.io[favicon.io](https://favicon.io/ "favicon.io")
+
+
+# Testing
+
+\
+&nbsp;
+
+### UX Testing
