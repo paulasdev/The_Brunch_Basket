@@ -27,11 +27,6 @@ body {
     width: fit-content;
 }
 
-.order-now-button {
-    background: #79511E;
-    color: white;
-    min-width: 260px;
-}
 
 .btn-black {
     background: #79511E;
@@ -50,27 +45,14 @@ body {
     border: 1px solid #79511E;
 }
 
-.order-now-button{
-        margin-right: 10px;
-}
 
 
-.order-now-button:hover,
-.order-now-button:active,
-.order-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
+.order-now-button {
     background: #79511E;
     color: white;
 }
 
-.contact-us-button:hover,
-.contact-us-button:active,
-.contact-us-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
+.contact-us-button {
     background: rgba(121, 81, 30, 0.7);
     color: white;
 }
@@ -125,6 +107,7 @@ a.category-badge>span.badge:hover {
 input[name='q']::placeholder {
     color: #aab7c4;
 }
+
 
 /* ------------------------------- bootstrap toasts */
 
