@@ -2,7 +2,7 @@
   <div class="container-fluid row background-white m-0 p-0">
 
           <!-- MailChimp newsletter -->
-          {% include 'components/newsletter/newsletter.html' %}
+       
 
           <div class="col-12 col-md-6 col-lg-6 col-xl-4 mx-auto my-3 d-flex flex-column align-items-center justify-content-start justify-content-md-center">
               <div class="w-100 d-flex flex-row align-items-center justify-content-around">
@@ -34,33 +34,9 @@
                   </a>
 
               </div>
-              <p class="text-xs my-2 m-md-4">&copy;<span id="copyright-year"></span> {{ store_name }}</p>
-              <a href="{% url 'privacy_policy' %}" class="text-xs my-2 m-md-4 text-dark-green" aria-labelledby="privacy-policy">
-                  <i class="fa-solid fa-lock me-2"></i>Privacy Policy
-              </a>
-              <span class="sr-only" id="privacy-policy">A link with dark green writing that navigates to {{ store_name }}'s privacy policy</span>
+
+             
           </div>
   </div>
 </footer>
 
-
-
-
-<footer class="container-fluid">
-    <div class="row">
-      <div class="col-md-4">
-        <p>Copyright &copy; 2023 The Brunch Basket</p>
-      </div>
-      <div class="col-md-4">
-        <h3>Contact us</h3>
-        <p>123 Main St<br>Anytown, IE<br>555-555-5555</p>
-        <form class="form">
-          <div class="form-group">
-            <label for="email">Sign up to receive updates about our latest products and promotions</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter email">
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-    </div>
-  </footer>
