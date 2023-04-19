@@ -6,16 +6,23 @@
           <form action="" method="post">
             {% csrf_token %}
             <input type="email" name="email" placeholder="Your email address">
-            <button type="submit">Subscribe</button>
+            <button class="bnt btn-submit rounded-0" type="submit">Subscribe</button>
           </form>
         </div>
         <div class="col-md-6">
           <p>Follow us on social media</p>
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-          </ul>
+
+          <a href="{{ facebook }}" target="_blank" rel="noopener noreferrer" class="text-md text-dark-green footer-link">
+            <i class="fa-brands fa-facebook-square"></i>
+        </a>
+
+        <a href="{{ instagram }}" target="_blank" rel="noopener noreferrer" class="text-md text-dark-green footer-link">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="{{ twitter }}" target="_blank" rel="noopener noreferrer" class="text-md text-dark-green footer-link">
+            <i class="fa-brands fa-twitter-square"></i>
+        </a>
         </div>
       </div>
     </div>
