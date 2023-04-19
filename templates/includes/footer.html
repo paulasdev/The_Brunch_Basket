@@ -1,3 +1,50 @@
+<footer class="mt-auto border-top-light-green">
+  <div class="container-fluid row background-white m-0 p-0">
+
+          <!-- MailChimp newsletter -->
+          {% include 'components/newsletter/newsletter.html' %}
+
+          <div class="col-12 col-md-6 col-lg-6 col-xl-4 mx-auto my-3 d-flex flex-column align-items-center justify-content-start justify-content-md-center">
+              <div class="w-100 d-flex flex-row align-items-center justify-content-around">
+
+                  <a href="{{ store_dropped_pin }}"
+                  target="_blank" rel="noopener noreferrer" class="text-md text-dark-green footer-link">
+                      <i class="fa-solid fa-location-dot"></i>
+                  </a>
+
+                  <a href="tel:{{ store_phone_number }}" class="text-md text-dark-green footer-link">
+                      <i class="fa-solid fa-square-phone"></i>
+                  </a>
+
+                  <a href="mailto:{{ store_email }}" class="text-md text-dark-green footer-link">
+                      <i class="fa-solid fa-square-envelope"></i>
+                  </a>
+
+
+                  <a href="{{ facebook }}" target="_blank" rel="noopener noreferrer" class="text-md text-dark-green footer-link">
+                      <i class="fa-brands fa-facebook-square"></i>
+                  </a>
+
+                  <a href="{{ instagram }}" target="_blank" rel="noopener noreferrer" class="text-md text-dark-green footer-link">
+                      <i class="fa-brands fa-instagram"></i>
+                  </a>
+
+                  <a href="{{ twitter }}" target="_blank" rel="noopener noreferrer" class="text-md text-dark-green footer-link">
+                      <i class="fa-brands fa-twitter-square"></i>
+                  </a>
+
+              </div>
+              <p class="text-xs my-2 m-md-4">&copy;<span id="copyright-year"></span> {{ store_name }}</p>
+              <a href="{% url 'privacy_policy' %}" class="text-xs my-2 m-md-4 text-dark-green" aria-labelledby="privacy-policy">
+                  <i class="fa-solid fa-lock me-2"></i>Privacy Policy
+              </a>
+              <span class="sr-only" id="privacy-policy">A link with dark green writing that navigates to {{ store_name }}'s privacy policy</span>
+          </div>
+  </div>
+</footer>
+
+
+
 
 <footer class="container-fluid">
     <div class="row">
