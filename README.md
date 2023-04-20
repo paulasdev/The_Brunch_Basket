@@ -109,9 +109,6 @@ Income: €40,000-€100,000
 
 
 
-
-
-
 #### **Color Scheme**
 Choosing the right color palette for your breakfast basket ecommerce website can play a significant role in creating a visually appealing and memorable user experience. Here are some color palette ideas that you may want to consider:
 
@@ -162,9 +159,3 @@ Soft and muted: Opt for a softer and more subdued color palette using shades of 
 * [favicon.io](https://favicon.io/)
 
 
-# Testing
-
-\
-&nbsp;
-
-### UX Testing
