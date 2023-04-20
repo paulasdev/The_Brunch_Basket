@@ -127,39 +127,39 @@ Soft and muted: Opt for a softer and more subdued color palette using shades of 
 ## Languages
 
 
-HTML [HTML](https://en.wikipedia.org/wiki/HTML5 "HTML") 
-CSS[CSS](https://en.wikipedia.org/wiki/CSS "CSS")
-JavaScript[JavaScript](https://en.wikipedia.org/wiki/JavaScript "JS")
-jQuery[jQuery](https://jquery.com/ "jQuery")
-Python[Python](https://en.wikipedia.org/wiki/Python_(programming_language) "Python")
-Markdown[Markdown](https://en.wikipedia.org/wiki/Markdown)
+* [HTML](https://en.wikipedia.org/wiki/HTML5) 
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [jQuery](https://jquery.com/)
+* [Python](https://en.wikipedia.org/wiki/Python_)
+* [Markdown](https://en.wikipedia.org/wiki/Markdown)
  
 ## Libraries, Frameworks and Tools
-Django [django](https://en.wikipedia.org/wiki/Django_(web_framework) "django")|
-gunicorn[gunicorn](https://en.wikipedia.org/wiki/Gunicorn "gunicorn")|
-psycopg2[psycopg2](https://wiki.postgresql.org/wiki/Psycopg "psycogg2")
-cloudinary[cloudinary](https://cloudinary.com/ "cloudinary")|
-django auth[auth](https://docs.djangoproject.com/en/3.2/topics/auth/ "auth")|
-django mathfilters [django-mathfilters](https://pypi.org/project/django-mathfilters/)
-django crispy forms[crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/ "crispy-forms")
-Sitemap Generator[xml-sitemaps](https://www.xml-sitemaps.com/ "XML-Sitemaps.com")
-|HTML Validation[w3.org](https://validator.w3.org/ "W3C")
-CSS Validation[w3.org](https://jigsaw.w3.org/css-validator/ "W3C")
-JS Validation[jshint](https://jshint.com/ "JSHint")
-PEP8[PEP8](http://pep8online.com/ "PEP8")
-Lucid[Lucid](https://lucid.co/ "Lucid")
-Istock[Istock](https://www.istockphoto.com/ "iStock")
-GitPod[Gitpod](https://www.gitpod.io/ "Gitpod")
-Balsamic[Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
-Bootstrap[Bootstrap](https://getbootstrap.com "Bootstrap")
-Font Awesome[Font Awesome library](https://fontawesome.com/ "Font Awesome")
-miniwebtool[Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/ "miniwebtool")
-Colours[coolors](https://coolors.co/ "coolors")|
-Google Fonts[Google Fonts](https://fonts.google.com/ "Fonts")|
-WebAIM [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM")|
-Pillow [Pillow](https://pillow.readthedocs.io/en/stable/ "Pillow")
-Stripe[Stripe](https://stripe.com/en-gb "Stripe")
-favicon.io[favicon.io](https://favicon.io/ "favicon.io")
+* [django](https://en.wikipedia.org/wiki/Django_)
+* [gunicorn](https://en.wikipedia.org/wiki/Gunicorn)
+* [psycopg2](https://wiki.postgresql.org/wiki/Psycopg)
+* [cloudinary](https://cloudinary.com/)
+* [auth](https://docs.djangoproject.com/en/3.2/topics/auth/)
+* [django-mathfilters](https://pypi.org/project/django-mathfilters/)
+* [crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+* [xml-sitemaps](https://www.xml-sitemaps.com/)
+* [w3.org](https://validator.w3.org/)
+* [w3.org](https://jigsaw.w3.org/css-validator/)
+* [jshint](https://jshint.com/)
+* [PEP8](http://pep8online.com/)
+* [Lucid](https://lucid.co/)
+* [Istock](https://www.istockphoto.com/)
+* [Gitpod](https://www.gitpod.io/)
+* [Balsamic](https://balsamiq.com/wireframes/)
+* [Bootstrap](https://getbootstrap.com)
+* [Font Awesome library](https://fontawesome.com/)
+* [Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/)
+* [coolors](https://coolors.co/)
+* [Google Fonts](https://fonts.google.com/)
+* [WebAIM](https://webaim.org/resources/contrastchecker/)
+* [Pillow](https://pillow.readthedocs.io/en/stable/)
+* [Stripe](https://stripe.com/en-gb)
+* [favicon.io](https://favicon.io/)
 
 
 # Testing
