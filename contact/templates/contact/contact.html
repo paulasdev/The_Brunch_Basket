@@ -2,9 +2,6 @@
 {% load static %}
 {% load crispy_forms_tags %}
 
-{% block extra_css %}
-    <link rel="stylesheet" href="{% static 'contact/css/contact.css' %}">
-{% endblock %}
 
 {% block page_header %}
     <div class="container header-container">
@@ -15,10 +12,10 @@
 {% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
+<div class="overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 py-2">
                 <hr>
                 <h2 class="logo-font mb-4">Contact</h2>
                 <h5 class="text-muted">Have a question, concern, or just want to say hi? We'd love to hear from you!</h5>
@@ -46,6 +43,7 @@
         </div>
     </div>
 {% endblock %}
+
 
 
 {% block postloadjs %}
