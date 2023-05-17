@@ -1,20 +1,35 @@
 {% extends "base.html" %}
 {% load static %}
+{% load crispy_forms_tags %}
 
 
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
-{% for post in posts_list %}
-<h2><a href="{% url 'post_detail' slug=post.slug %}">{{ post.title }}</a></h2>
-<p>by {{ post.author }} on {{ post.created_on }}</p>
-<p>{{ post.content }}</p>
-{% endfor %}
-{% endblock %}
+
+{% for post in posts %}
+<div class="container">
+    <div class="row">
+        <div class="col card mb-4  mt-3 left  top">
+            <div class="card-body">
+                <div class="card-body">
+                    <h2 class="logo-font mb-4">Blog</h2>
+                    <hr>
+                    <h2>{{ post.title }}</h2>
+
+                    <p class="card-text">{{ post.content }}</p>
+                    <p>Published on: {{ post.created_on }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>            
+                {% endfor %}
+                {% endblock %}
