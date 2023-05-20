@@ -30,7 +30,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 # DEBUG = False
 
 
-ALLOWED_HOSTS = ['the-brunch-basket.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['the-brunch-basket.herokuapp.com', '8000-paulasdev-thebrunchbask-biaqes2hpeo.ws-eu97.gitpod.io','localhost']
 
 
 
