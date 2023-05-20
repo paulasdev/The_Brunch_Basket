@@ -1,6 +1,5 @@
 {% extends "base.html" %}
 {% load static %}
-{% load crispy_forms_tags %}
 
 
 
@@ -12,24 +11,47 @@
 </div>
 {% endblock %}
 
+
 {% block content %}
 
-{% for post in posts %}
+<div class="overlay"></div>
 <div class="container">
     <div class="row">
-        <div class="col card mb-4  mt-3 left  top">
-            <div class="card-body">
-                <div class="card-body">
-                    <h2 class="logo-font mb-4">Blog</h2>
-                    <hr>
-                    <h2>{{ post.title }}</h2>
+        <div class="col text-center mt-3">
+            <hr>
+            <h2 class="logo-font mb-4">Blog</h2>
+            <h5 class="text-muted">Welcome to the Brunch Basket blog!</h5>
+            <hr>
+        </div>
+    </div>
 
-                    <p class="card-text">{{ post.content }}</p>
-                    <p>Published on: {{ post.created_on }}</p>
+
+    {% for post in posts %}
+    <div class="row">
+        <div class="col-12 mt-3 left">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ post.title }}</h5>
+                            <p class="card-text">{{ post.content|truncatechars:300 }}</p>
+                            <p>Published on: {{ post.created_on }}</p>
+                            <a class="btn btn-black btn-floating m-1"  href="{% url 'post_detail' post.pk %}">Read More</a>
+                       
+                        {% if request.user.is_superuser %}
+                        <small class="ml-3">
+                            <a href="{% url 'post_edit' post.pk %}">Edit</a> | 
+                            <a class="text-danger" href="{% url 'post_delete' post.pk %}">Delete</a>
+                        </small>
+                    {% endif %}
+                </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>            
-                {% endfor %}
-                {% endblock %}
+
+
+    {% endfor %}
+</div>
+{% endblock %}

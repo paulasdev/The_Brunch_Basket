@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+
+
+<div class="overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col text-center mt-3">
+            <hr>
+            <h1 class="post-title">{{ post.title }}</h1>
+            <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mb-4  mt-3 left  top">
+            <div>
+                <p> {{ post.content | safe }} </p>
+
+            </div>
+        </div>
+   
+    </div>
+</div>
+<div class="text-center">
+    <a class="btn btn-black btn-floating m-1" href="{% url 'post_list'  %}">Back to Post</a>
+</div>
+{% endblock %}
