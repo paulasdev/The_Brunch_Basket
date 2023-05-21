@@ -28,30 +28,29 @@
 
     {% for post in posts %}
     <div class="row">
-        <div class="col-12 mt-3 left">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">{{ post.title }}</h5>
-                            <p class="card-text">{{ post.content|truncatechars:300 }}</p>
-                            <p>Published on: {{ post.created_on }}</p>
-                            <a class="btn btn-black btn-floating m-1"  href="{% url 'post_detail' post.pk %}">Read More</a>
-                       
-                        {% if request.user.is_superuser %}
-                        <small class="ml-3">
-                            <a href="{% url 'post_edit' post.pk %}">Edit</a> | 
-                            <a class="text-danger" href="{% url 'post_delete' post.pk %}">Delete</a>
-                        </small>
+        <div class="col-sm-6">
+            <div class="col card mb-4  mt-3 left  top">
+                <div class="card-body">
+                    <h5 class="card-title">{{ post.title }}</h5>
+                    <p class="card-text">{{ post.content|truncatechars:300 }}</p>
+                    <p>Published on: {{ post.created_on }}</p>
+                    <a class="btn btn-black btn-floating m-1" href="{% url 'post_detail' post.pk %}">Read More</a>
+
+                    {% if request.user.is_superuser %}
+                    <small class="ml-3">
+                        <a href="{% url 'post_edit' post.pk %}">Edit</a> |
+                        <a class="text-danger" href="{% url 'post_delete' post.pk %}">Delete</a>
+                    </small>
                     {% endif %}
-                </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
 
 
-    {% endfor %}
+
+
+{% endfor %}
 </div>
+
 {% endblock %}
