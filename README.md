@@ -106,6 +106,7 @@ Income: €40,000-€100,000
 | 22 | Site User | create and manage my own account profile | view my order history and update my personal information and preferences.
 | 23 | Site User | subscribe | stay up-to-date on new products and promotions.
 
+## Wireframes
 
 
 

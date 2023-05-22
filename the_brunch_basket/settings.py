@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 import dj_database_url
+if os.path.exists("env.py"):
+    import env 
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -137,6 +139,7 @@ if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
+    print("Elephant")
 else:    
     DATABASES = {
         'default': {
@@ -144,6 +147,7 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
+    print("Local")
      
 
 # Password validation
