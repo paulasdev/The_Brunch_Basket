@@ -1,4 +1,5 @@
-# The Brunch Basket
+<h1 align="center">The Brunch Basket</h1>
+
 
 <span style="display:block;text-align:center">![Logo-The-Brunch-Basket](media/56.png)</span>
 
