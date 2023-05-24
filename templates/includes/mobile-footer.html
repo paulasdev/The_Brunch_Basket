@@ -6,7 +6,7 @@
           <form action="{% url 'subscribe' %}" method="POST">
             {% csrf_token %}
             <input type="email" name="email" placeholder="Your email address">
-            <button class="bnt btn-submit rounded-0" type="submit">Subscribe</button>
+            <button class="btn btn-sb btn-outline-black btn-floating m-1" type="submit">Subscribe</button>
           </form>
         </div>
  
@@ -16,14 +16,15 @@
             <!-- Facebook -->
             <a class="btn btn-outline-light btn-floating m-1"
               href="https://www.facebook.com/profile.php?id=100092292570505" target="_blank" role="button"><i
-                class="fab fa-facebook-f"></i></a>
+                class="fab fa-facebook-f" aria-label="Facebook"></i></a>
  
             <!-- Instagram -->
             <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" target="_blank"
-              role="button"><i class="fab fa-instagram"></i></a>
+              role="button"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
             </a>
+            <!-- Youtube -->
             <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/" target="_blank"
-              role="button"><i class="fab fa-youtube"></i></a>
+              role="button"><i class="fab fa-youtube" aria-label="Youtube"></i></a>
         </div>
 
         <div class="col-md-4 mb-3">

@@ -34,10 +34,6 @@ body {
     color: white;
 }
 
-.btn-submit {
-    background: #BB9261;
-    color: white;
-}
 
 .btn-outline-black {
     background: white;
@@ -46,6 +42,10 @@ body {
     border: 1px solid #79511E;
 }
 
+.btn-sb {
+    background: #512E00 !important;
+    color: white !important;
+}
 
 
 .order-now-button {
@@ -107,6 +107,11 @@ a.category-badge>span.badge:hover {
 
 input[name='q']::placeholder {
     color: #aab7c4;
+}
+
+.fa-user,
+.fa-shopping-bag {
+    color: #79511E;
 }
 
 
@@ -305,6 +310,7 @@ input[name='q']::placeholder {
 
     .nav-link i.fa-lg {
         font-size: 1rem;
+        
     }
 
     .navbar-toggler {
