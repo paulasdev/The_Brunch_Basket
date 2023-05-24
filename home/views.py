@@ -13,5 +13,3 @@ def not_found_404(request, exception):
     """ A view to return the 404 page """
 
     return render(request, 'home/404.html')
-
-
