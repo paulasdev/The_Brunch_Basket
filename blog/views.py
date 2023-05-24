@@ -17,10 +17,10 @@ def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     return render(request, 'blog/post_detail.html', {'post': post})
 
-
 @login_required
 def post_new(request):
     """ Add a new post to the blog """
+    
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -32,10 +32,7 @@ def post_new(request):
             messages.success(request, 'Post created successfully')
             return redirect('post_detail', pk=post.pk)
         else:
-            messages.error(
-                request,
-                'Failed to add post. Please ensure the form is valid.'
-                )
+            messages.error(request, 'Failed to add post. Please ensure the form is valid.')
     else:
         form = PostForm()
     return render(request, 'blog/post_add.html', {'form': form})
@@ -57,9 +54,7 @@ def post_edit(request, pk):
             messages.success(request, 'Post updated successfully!')
             return redirect('post_detail', pk=post.pk)
         else:
-            messages.error(
-                request,
-                'Failed to update post. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update post. Please ensure the form is valid.')
     else:
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form, 'post': post})
@@ -76,3 +71,6 @@ def post_delete(request, pk):
     post.delete()
     messages.success(request, 'Post deleted!')
     return redirect('post_list')
+
+
+   
