@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 import dj_database_url
 if os.path.exists("env.py"):
-    import env 
+    import env
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -33,8 +33,6 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 
 ALLOWED_HOSTS = ['the-brunch-basket.herokuapp.com', 'localhost']
-
-
 
 # Application definition
 
@@ -59,7 +57,7 @@ INSTALLED_APPS = [
     'blog',
 
 
-    
+
 
     # Other
     'crispy_forms',
@@ -140,7 +138,7 @@ if 'DATABASE_URL' in os.environ:
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
     print("Elephant")
-else:    
+else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
@@ -148,7 +146,6 @@ else:
         }
     }
     print("Local")
-     
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -199,7 +196,7 @@ if 'USE_AWS' in os.environ:
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
         'CacheControl': 'max-age=94608000',
     }
-    
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'the-brunch-basket'
     AWS_S3_REGION_NAME = 'eu-west-1'
@@ -226,7 +223,7 @@ STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-if 'DEVELOPMENT' in os.environ: 
+if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     DEFAULT_FROM_EMAIL = 'thebrunchbasket@example.com'
 else:
@@ -237,4 +234,3 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
-

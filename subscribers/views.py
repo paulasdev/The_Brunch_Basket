@@ -13,7 +13,3 @@ def subscribe(request):
     else:
         form = SubscriberForm()
     return render(request, 'subscribers/subscribe.html', {'form': form})
-
-
-
-
