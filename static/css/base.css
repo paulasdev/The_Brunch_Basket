@@ -51,9 +51,10 @@ body {
 .order-now-button {
     background: #79511E;
     color: white;
+    min-width: 260px;
 }
 
-.contact-us-btn {
+.contact-us-button {
     background: rgba(121, 81, 30, 0.7);
     color: white;
 }
