@@ -1,46 +1,69 @@
-<footer class="container" style="background-color: #79511E; color: white;"> 
-    <div class="container py-2">
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <p>Subscribe to our newsletter</p>
-          <form action="{% url 'subscribe' %}" method="POST">
-            {% csrf_token %}
-            <input type="email" name="email" placeholder="Your email address">
-            <button class="btn btn-sb btn-outline-black btn-floating m-1" type="submit">Subscribe</button>
-          </form>
-        </div>
- 
- 
-        <div class="col-md-4 mb-3">
-            <p>Connect with us</p>
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1"
-              href="https://www.facebook.com/profile.php?id=100092292570505" target="_blank" role="button"><i
-                class="fab fa-facebook-f" aria-label="Facebook"></i></a>
- 
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" target="_blank"
-              role="button"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
-            </a>
-            <!-- Youtube -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/" target="_blank"
-              role="button"><i class="fab fa-youtube" aria-label="Youtube"></i></a>
-        </div>
-
-        <div class="col-md-4 mb-3">
-              <p>Contact Us</p>
-              <ul class="list-unstyled">
-                <li><i class="fas fa-envelope"></i> <a href="mailto:info@thebrunchbasket.com">info@thebrunchbasket.com</a></li>
-                <li><i class="fas fa-phone"></i> +1 (555) 555-5555</li>
-                <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, Ireland</li>
-              </ul>
+<footer class="container" style="background-color: #79511E; color: white;">
+  <div class="container py-2">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <p>Subscribe to our newsletter</p>
+        <form
+          action="https://herokuapp.us21.list-manage.com/subscribe/post?u=00841de009f1f621ebb73256d&amp;id=c84302906b&amp;f_id=004954e1f0"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+          target="_self" novalidate>
+          <div class="mc-field-group">
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+              placeholder="Your Email Address">
           </div>
+          <div id="mce-responses" class="clear foot">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+          <input type="submit" value="Subscribe" name="subscribe" class="btn btn-sb btn-outline-black btn-floating m-1">
+        </form>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <hr class="bg-light">
-          <p class="text-center">&copy; 2023 The Brunch Basket. All rights reserved.</p>
-        </div>
+
+
+      <div class="col-md-4 mb-3">
+        <p>Connect with us</p>
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100092292570505"
+          target="_blank" role="button"><i class="fab fa-facebook-f" aria-label="Facebook"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" target="_blank"
+          role="button"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
+        </a>
+        <!-- Youtube -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/" target="_blank"
+          role="button"><i class="fab fa-youtube" aria-label="Youtube"></i></a>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <p>Contact Us</p>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-envelope"></i> <a href="mailto:info@thebrunchbasket.com">info@thebrunchbasket.com</a>
+          </li>
+          <li><i class="fas fa-phone"></i> +1 (555) 555-5555</li>
+          <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, Ireland</li>
+        </ul>
       </div>
     </div>
-  </footer>
+    <div class="row">
+      <div class="col-12">
+        <hr class="bg-light">
+        <p class="text-center">&copy; 2023 The Brunch Basket. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--Mailcimp scripts---->
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+  (function ($) {
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[0] = 'EMAIL';
+    ftypes[0] = 'email';
+
+  }(jQuery));
+  var $mcj = jQuery.noConflict(true);
+</script>
+<!--End mc_embed_signup-->
