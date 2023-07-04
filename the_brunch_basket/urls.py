@@ -34,4 +34,4 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'the_brunch_basket.views.not_found_404'
-handler500 = 'the_brunch_basket.views.not_found_505'
+handler500 = 'the_brunch_basket.views.error_500'
