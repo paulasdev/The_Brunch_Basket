@@ -32,7 +32,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 # DEBUG = False
 
 
-ALLOWED_HOSTS = ['the-brunch-basket.herokuapp.com','8000-paulasdev-thebrunchbask-mrqhs9khgfs.ws-eu101.gitpod.io', 'localhost']
+ALLOWED_HOSTS = ['the-brunch-basket.herokuapp.com','8000-paulasdev-thebrunchbask-lvfngz32axu.ws-eu101.gitpod.io', 'localhost']
 
 # Application definition
 
@@ -217,7 +217,7 @@ if 'USE_AWS' in os.environ:
 # Stripe
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
-STRIPE_CURRENCY = 'usd'
+STRIPE_CURRENCY = 'eur'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
