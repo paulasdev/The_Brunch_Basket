@@ -32,7 +32,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 # DEBUG = False
 
 
-ALLOWED_HOSTS = ['the-brunch-basket.herokuapp.com','8000-paulasdev-thebrunchbask-lvfngz32axu.ws-eu101.gitpod.io', 'localhost']
+ALLOWED_HOSTS = ['the-brunch-basket.herokuapp.com','8000-paulasdev-thebrunchbask-rlltko7sc7z.ws-eu101.gitpod.io', 'localhost']
 
 # Application definition
 
